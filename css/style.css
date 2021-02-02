@@ -11,11 +11,12 @@ h3{
 }
 
 img {
-  height: 200px;
+  height: 150px;
 }
 #lezioni, #steps, #why{
   background-color: #f9f9f9;
   margin: 50px auto;
+  text-align: center;
 }
 
 .row img {
@@ -107,10 +108,7 @@ img {
     padding: 15px;
   }
 }
-
-#steps {
-  text-align: center;
-} */
+*/
 
 /* BLOCCO PERCHE */
 /* #why {
