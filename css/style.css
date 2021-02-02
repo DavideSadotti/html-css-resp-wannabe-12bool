@@ -1,0 +1,153 @@
+body{
+  background-color: #ebebeb;
+}
+
+h1{
+  padding-top: 50px;
+}
+
+h3{
+  padding: 15px;
+}
+
+img {
+  height: 200px;
+}
+#lezioni, #steps, #why{
+  background-color: #f9f9f9;
+  margin: 50px auto;
+}
+
+.row img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: auto;
+  max-width: 90%;
+}
+
+#lezioni {
+  text-align: center;
+}
+
+#why .row img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+/*
+@media screen and (min-width: 1024px) {
+  .row {
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+}
+
+} */
+
+/* BLOCCO LEZIONI */
+/* @media screen and (max-width: 419px){
+  #lezioni .row>.left,
+  #lezioni .row>.right{
+    width: 100%;
+    margin: 20px auto;
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 420px){
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 80%;
+    margin: 50px auto;
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 50%;
+    float: left;
+  }
+}
+*/
+
+/* BLOCCO STEPS */
+/* @media screen and (max-width: 419px){
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    margin: 20px auto;
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 420px){
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 80%;
+    margin: 50px auto;
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: left;
+    width: 33%;
+    padding: 15px;
+  }
+}
+
+#steps {
+  text-align: center;
+} */
+
+/* BLOCCO PERCHE */
+/* #why {
+  text-align: center;
+}
+
+#why hr{
+  margin: 80px 0 50px;
+}
+
+@media screen and (max-width: 419px){
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width: 420px){
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+  }
+}
+*/
+
+/* COMMON */
+/* .row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.clear {
+  clear: both;
+}  */
